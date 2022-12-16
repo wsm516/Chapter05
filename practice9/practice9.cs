@@ -103,7 +103,7 @@ class Queue : IOperation
         queue = new string[size];
     }
 
-    public void Insert(string str) // 매개변수로 받은 str을 큐의 rear에 삽입한다. 2-1 
+    public void Insert(string str) // 매개변수로 받은 str을 큐의 rear에 삽입한다. 2-1  
     {
         if (rear < size)
         {
