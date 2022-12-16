@@ -10,7 +10,7 @@ class Squre : Figure
 {
     double line1; // 사각형의 가로 길이
     double line2; // 사각형의 세로 길이
-    public Squre(double line1, double line2) // 가로 길이와 세로 길이를 저장하는 생성자
+    public Squre(double line1, double line2) // 가로 길이와 세로 길이를 저장하는 생성자 
     {
         this.line1 = line1;
         this.line2 = line2;
