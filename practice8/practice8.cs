@@ -31,7 +31,7 @@ class Squre : Figure
 class Circle : Figure
 {
     double radius; // 원의 반지름 길이
-    public Circle(double radius) // 원의 반지름 길이를 저장하는 생성자
+    public Circle(double radius) // 원의 반지름 길이를 저장하는 생성자 
     {
         this.radius = radius;
     }
