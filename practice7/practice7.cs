@@ -19,7 +19,7 @@ class Celsius : Temperature
     {
         return new Celsius(d);
     }
-    public static explicit operator Celsius(Fahrenheit f) // Fahrenheit를 Celsius로 변환하는 형 변환 연산자 1-2
+    public static explicit operator Celsius(Fahrenheit f) // Fahrenheit를 Celsius로 변환하는 형 변환 연산자 1-2 
     {
         double d = (f.Degree - 32) * 5 / 9;
         return new Celsius(d);
