@@ -4,7 +4,7 @@ public interface IFigure
 {
     void Area();    // 넓이를 구하는 메소드 
     void Girth();   // 둘레를 구하는 메소드 
-    void Draw();    // 도형을 그리는 메소드
+    void Draw();    // 도형을 그리는 메소드 
 }
 class Rect : IFigure
 {
