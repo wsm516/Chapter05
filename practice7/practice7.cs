@@ -3,7 +3,7 @@
 class Temperature
 {
     double degree;
-    public Temperature(double degree) // 생성자
+    public Temperature(double degree) // 생성자 
     {
         this.degree = degree;
     }
