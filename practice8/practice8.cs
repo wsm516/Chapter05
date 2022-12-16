@@ -2,7 +2,7 @@
 
 abstract class Figure
 {
-    public abstract void Area();      // 넓이를 구하는 메소드
+    public abstract void Area();      // 넓이를 구하는 메소드 
     public abstract void Girth();     // 둘레를 구하는 메소드
     public abstract void Draw();      // 도형을 그리는 메소드 
 }
