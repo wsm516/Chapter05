@@ -60,7 +60,7 @@ class Stack : IOperation
         {
             for (int i = 0; i <= sp; i++)
             {
-                if (stack[i].Equals(str)) return true; // 원소가 있을시에 true 반환
+                if (stack[i].Equals(str)) return true; // 원소가 있을시에 true 반환 
             }
             return false; // 원소가 없을시에 false 반환
         }
