@@ -7,7 +7,7 @@ class Temperature
     {
         this.degree = degree;
     }
-    public double Degree // 프로퍼티
+    public double Degree // 프로퍼티 
     {
         get { return degree; }
     }
