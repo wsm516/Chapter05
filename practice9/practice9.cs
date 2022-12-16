@@ -153,7 +153,7 @@ class Queue : IOperation
         else return queue[front];
     }
 
-    public int NumOfElements() // 큐에 존재하는 원소의 개수를 반환 2-5
+    public int NumOfElements() // 큐에 존재하는 원소의 개수를 반환 2-5 
     {
         return rear - front;
     }
