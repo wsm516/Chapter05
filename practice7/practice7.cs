@@ -36,7 +36,7 @@ class Fahrenheit : Temperature
     {
         return new Fahrenheit(d);
     }
-    public static explicit operator Fahrenheit(Celsius c) //Celsius를 Fahrenheit로 변환하는 형 변환 연산자 2-2
+    public static explicit operator Fahrenheit(Celsius c) //Celsius를 Fahrenheit로 변환하는 형 변환 연산자 2-2 
     {
         double d = c.Degree * 9 / 5 + 32;
         return new Fahrenheit(d);
