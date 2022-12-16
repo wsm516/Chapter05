@@ -22,7 +22,7 @@ class Stack : IOperation
         size = num;
         stack = new string[size];
     }
-    public void Insert(string str) // 매개변수로 받은 str을 스택에 푸시한다. 1-1
+    public void Insert(string str) // 매개변수로 받은 str을 스택에 푸시한다. 1-1 
     {
         if (sp < size)
         {
